@@ -1,0 +1,20 @@
+/* css styles */
+
+h1, h2{
+    text-align: center;
+    background-color: yellow;
+    font-family: serif;
+}
+
+p {
+    background-color: orange;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+}
