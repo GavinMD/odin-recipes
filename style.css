@@ -1,20 +1,46 @@
 /* css styles */
-
+html {
+    background-color: lightblue;
+}
 h1, h2{
     text-align: center;
     background-color: yellow;
     font-family: serif;
+    margin: auto;
+    width: 500px;
 }
 
+div {
+    background-color: gold;
+    width: 80%;
+    margin: 0 auto;
+}
 p {
     background-color: orange;
-    font-size: 16px;
+    font-size: 20px;
+    width: 80%;
+    margin: 16px  auto;
     font-family: 'Times New Roman', Times, serif;
+    padding: 8px;
 }
 
+ul,ol {
+}
+ 
 li {
     font-size: 20px;
-    color: red;
+    color: blue;
     font-weight: bold;
     font-family: sans-serif;
+}
+
+.recipeList {
+    background-color: lightgray;
+}
+
+.recipe {
+    font-size: 55px;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 25px;
 }
